@@ -1,0 +1,52 @@
+# --- Python ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pkl
+*.log
+
+# --- Virtual envs ---
+venv/
+.env/
+.venv/
+
+# --- Jupyter ---
+.ipynb_checkpoints
+
+# --- Streamlit ---
+.streamlit/
+
+# --- VSCode ---
+.vscode/
+
+# --- Cache ---
+*.cache
+.cache/
+*cache*
+*cuda*
+
+# --- YOLO / ML ---
+runs/
+weights/
+*.pt
+*.onnx
+*.engine
+*.bin
+*.jsonl
+
+# --- Dataset ---
+data/raw/*
+data/train/*
+data/val/*
+
+# Keep the required metadata:
+!data/dataset.yaml
+!data/evidence_features.csv
+!data/crime_labels.csv
+!data/crime_labels_suggested.csv
+
+# --- System files ---
+Thumbs.db
+.DS_Store
+desktop.ini
