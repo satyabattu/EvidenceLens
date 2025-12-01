@@ -1,0 +1,26 @@
+<annotation>
+	<folder>raw</folder>
+	<filename>gun_032.png</filename>
+	<path>/mnt/c/Users/satya/OneDrive/Desktop/Evidencelens/data/raw/gun_032.png</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1261</width>
+		<height>976</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>gun_032.png</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>3</xmin>
+			<ymin>19</ymin>
+			<xmax>1240</xmax>
+			<ymax>940</ymax>
+		</bndbox>
+	</object>
+</annotation>

@@ -1,0 +1,26 @@
+<annotation>
+	<folder>raw</folder>
+	<filename>blood_5.png</filename>
+	<path>/mnt/c/Users/satya/OneDrive/Desktop/Evidencelens/data/raw/blood_5.png</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>963</width>
+		<height>968</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>blood_5.png</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>211</xmin>
+			<ymin>110</ymin>
+			<xmax>773</xmax>
+			<ymax>823</ymax>
+		</bndbox>
+	</object>
+</annotation>

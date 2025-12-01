@@ -1,0 +1,27 @@
+# YOLOv8 Dataset Configuration
+# EvidenceLens - Forensic Evidence Detection Project
+
+# Dataset paths (will be set after split_dataset.py runs)
+path: /mnt/c/Users/satya/OneDrive/Desktop/Evidencelens/data
+train: train/images
+val: val/images
+
+# Number of classes
+nc: 14
+
+# Class names (ID: Name mapping)
+names:
+  0: background
+  1: blood
+  2: bullet_hole
+  3: cigarette
+  4: crime_scene_tape
+  5: drink_can
+  6: fingerprint
+  7: footprint
+  8: gloves
+  9: gun
+  10: knife
+  11: shell_casing
+  12: shoeprint
+  13: syringe

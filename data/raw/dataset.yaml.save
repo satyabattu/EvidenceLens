@@ -1,0 +1,4 @@
+cd /mnt/c/Users/satya/OneDrive/Desktop/Evidencelens/data/raw/
+
+nano fix_yolo_labels.py
+

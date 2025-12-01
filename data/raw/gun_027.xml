@@ -1,0 +1,26 @@
+<annotation>
+	<folder>satyabattu</folder>
+	<filename>gun_027.png</filename>
+	<path>/home/satyabattu/gun_027.png</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1179</width>
+		<height>775</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>gun_027</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>354</xmin>
+			<ymin>422</ymin>
+			<xmax>664</xmax>
+			<ymax>553</ymax>
+		</bndbox>
+	</object>
+</annotation>

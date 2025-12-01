@@ -1,0 +1,3 @@
+cd /mnt/c/Users/satya/OneDrive/Desktop/Evidencelens
+conda activate evidencelens
+streamlit run app.py

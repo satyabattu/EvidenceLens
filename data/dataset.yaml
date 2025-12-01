@@ -1,0 +1,23 @@
+# YOLOv8 Dataset Configuration - EvidenceLens Final
+# 11 Classes - Optimized for Forensic Evidence Detection
+
+path: /mnt/c/Users/satya/OneDrive/Desktop/Evidencelens/data
+train: train/images
+val: val/images
+
+# Number of classes
+nc: 11
+
+# Class names (0-10)
+names:
+  0: background
+  1: blood
+  2: bullet_hole
+  3: crime_scene_tape
+  4: drink_can
+  5: fingerprint
+  6: gloves
+  7: gun
+  8: knife
+  9: shell_casing
+  10: prints

@@ -1,0 +1,14 @@
+background
+blood
+bullet_hole
+cigarette
+crime_scene_tape
+drink_can
+fingerprint
+footprint
+gloves
+gun
+knife
+shell_casing
+shoeprint
+syringe

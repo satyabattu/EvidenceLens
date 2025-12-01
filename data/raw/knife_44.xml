@@ -1,0 +1,26 @@
+<annotation>
+	<folder>raw</folder>
+	<filename>knife_44.png</filename>
+	<path>/mnt/c/Users/satya/OneDrive/Desktop/Evidencelens/data/raw/knife_44.png</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1673</width>
+		<height>1095</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>knife_44.png</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>326</xmin>
+			<ymin>466</ymin>
+			<xmax>1568</xmax>
+			<ymax>1072</ymax>
+		</bndbox>
+	</object>
+</annotation>
