@@ -1,6 +1,6 @@
 # EvidenceLens: Computer Vision for Forensic Evidence Detection and Crime Classification
 
-**BSc Computer Science Final Year Project**  
+**BENG Computer Science Final Year Project**  
 **Anglia Ruskin University | 2024-2025**  
 **Student:** SATYA (ID: 2228541)  
 **Supervisor:** Muhammad Ali (MOD002791)  
