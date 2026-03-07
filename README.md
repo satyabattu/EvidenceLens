@@ -2,7 +2,7 @@
 
 **BEng Computer Science Final Year Project**  
 **Anglia Ruskin University | 2024-2025**  
-**Student:** SATYA (ID: 2228541)  
+**Student:** SATYA )  
 **Supervisor:** Muhammad Ali (MOD002791)  
 **Ethics Approval:** ETH2526-1936 (LOW RISK)
 
@@ -337,8 +337,7 @@ This project is submitted as academic coursework for Anglia Ruskin University an
 
 ## Contact & Support
 
-**Student:** SATYA  
-**Student ID:** 2228541  
+**Student:** SATYA    
 **Institution:** Anglia Ruskin University, Computing & Technology  
 **Submission:** April 2026
 
