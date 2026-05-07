@@ -1,26 +1,31 @@
-# EvidenceLens: Computer Vision for Forensic Evidence Detection and Crime Classification
+# EvidenceLens: 
 
-**BEng Computer Science Final Year Project**  
-**Anglia Ruskin University | 2024-2025**  
-**Student:** SATYA )  
-**Supervisor:** Muhammad Ali (MOD002791)  
-**Ethics Approval:** ETH2526-1936 (LOW RISK)
+Forensic evidence detection and crime classification from crime scene images.
+<img width="2836" height="1226" alt="Screenshot 2026-05-07 184828" src="https://github.com/user-attachments/assets/b24a1dfc-dd66-4a0a-a243-93c07c0cfef9" />
+<img width="2868" height="1576" alt="Screenshot 2026-05-07 184634" src="https://github.com/user-attachments/assets/a37f22e7-1d7c-4601-b17e-16abc0435130" />
 
----
+https://huggingface.co/spaces/satyeaaa/EvidenceLens
 
-## Project Overview
+EvidenceLens is a CPU-compatible computer vision system that detects 11 categories of forensic evidence and predicts crime type from a single crime scene image. It runs on standard hardware with no GPU required — 78ms per image at 12.8fps.
+Built as a proof-of-concept for automated forensic triage, the system combines a YOLOv8-nano ensemble for evidence detection with a Random Forest classifier for crime type prediction.
 
-EvidenceLens is a CPU-compatible forensic computer vision system that detects 11 types of forensic evidence and predicts 5 crime types from crime scene images. The system combines YOLOv8-nano object detection with Random Forest crime classification to provide automated forensic triage on standard hardware without GPU requirements.
+# Results
 
-### Key Achievements
+ScoreEvidence Detection (mAP@0.5)56.6%Crime Classification Accuracy98.2% ± 1.1%Inference Speed78ms / image (CPU)Dataset1,050 images, 6,847 annotations
+The ensemble architecture improved overall mAP by 9.7% over a single model baseline. The largest gains were on small trace evidence — prints (+99.1%), gloves (+78.5%), shell casings (+53.0%) — which a single model consistently missed.
+The 56.6% mAP reflects real constraints: fingerprints at 15-25 pixels fall below YOLOv8's optimal detection range, and the 1,050 image dataset is small for 11-class detection. The next meaningful improvement would come from dataset expansion to 3,000+ images and attention mechanisms (CBAM) for small object sensitivity.
 
-- **Detection:** 56.6% mAP@0.5 across 11 evidence classes using ensemble architecture
-- **Classification:** 98.2% ± 1.1% crime-type prediction accuracy (5-fold CV)
-- **Hardware:** Trained and deployed on ARM Snapdragon X Elite CPU (no GPU)
-- **Inference:** 78ms per image (12.8 fps) suitable for forensic triage workflows
-- **Dataset:** 1,050 images, 6,847 annotated instances (800 manual + 250 validated Kaggle)
+# What It Does
 
----
+Detects 11 evidence classes: blood, gun, knife, bullet hole, shell casing, fingerprint, gloves, prints, crime scene tape, drink can, background
+Predicts crime type across 5 categories: homicide, armed robbery, burglary, assault, vandalism
+Dual-model ensemble with soft NMS fusion (IoU 0.6) for improved trace evidence detection
+Streamlit dashboard with adjustable confidence threshold, export to PNG/JSON/CSV
+
+
+# Tech Stack
+YOLOv8 scikit-learn Streamlit OpenCV PyTorch Python
+
 
 ## System Architecture
 
@@ -306,8 +311,6 @@ and Crime Classification. BSc Computer Science Final Year Project,
 Anglia Ruskin University.
 ```
 
----
-
 ## License & Ethics
 
 ### License
@@ -328,20 +331,9 @@ This project is submitted as academic coursework for Anglia Ruskin University an
 
 ## Acknowledgments
 
-- **Supervisor:** Muhammad Ali (MOD002791), Anglia Ruskin University
 - **YOLOv8:** Ultralytics team for open-source object detection framework
 - **Datasets:** Kaggle contributors, Roboflow community
 - **Libraries:** Streamlit, scikit-learn, OpenCV, PyTorch
-
----
-
-## Contact & Support
-
-**Student:** SATYA    
-**Institution:** Anglia Ruskin University, Computing & Technology  
-**Submission:** April 2026
-
-For questions regarding this project, contact through university channels.
 
 ---
 
@@ -355,5 +347,5 @@ For questions regarding this project, contact through university channels.
 
 ---
 
-**Last Updated:** December 2024  
-**Project Status:** Complete (Final Year Submission)
+**Last Updated:** December 2025  
+**Project Status:** Complete 
