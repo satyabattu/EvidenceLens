@@ -305,20 +305,9 @@ python train_crime_classifier.py
 
 ---
 
-## Citation
-
-If you use this work, please cite:
 
 ```
-SATYA (2025). EvidenceLens: Computer Vision for Forensic Evidence Detection 
-and Crime Classification. BSc Computer Science Final Year Project, 
-Anglia Ruskin University.
-```
 
-## License & Ethics
-
-### License
-This project is submitted as academic coursework for Anglia Ruskin University and is not licensed for commercial use without permission.
 
 ### Ethical Considerations
 - All data sourced from publicly available datasets (Kaggle, validated repositories)
@@ -326,10 +315,6 @@ This project is submitted as academic coursework for Anglia Ruskin University an
 - Staged evidence and forensic training materials used
 - Ethics approval: ETH2526-1936 (LOW RISK)
 - Compliant with UK Data Protection regulations
-
-### Intended Use
-**FOR:** Academic research, forensic training, proof-of-concept demonstrations  
-**NOT FOR:** Operational forensic deployment without regulatory validation
 
 ---
 
