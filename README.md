@@ -1,8 +1,12 @@
 # EvidenceLens: 
 
 Forensic evidence detection and crime classification from crime scene images.
-<img width="2836" height="1226" alt="Screenshot 2026-05-07 184828" src="https://github.com/user-attachments/assets/b24a1dfc-dd66-4a0a-a243-93c07c0cfef9" />
+
 <img width="2868" height="1576" alt="Screenshot 2026-05-07 184634" src="https://github.com/user-attachments/assets/a37f22e7-1d7c-4601-b17e-16abc0435130" />
+
+<img width="2836" height="1226" alt="Screenshot 2026-05-07 184828" src="https://github.com/user-attachments/assets/b24a1dfc-dd66-4a0a-a243-93c07c0cfef9" />
+
+
 
 https://huggingface.co/spaces/satyeaaa/EvidenceLens
 
